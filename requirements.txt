@@ -1,4 +1,5 @@
 keras==2.9.0rc0
+libgl1
 ##numpy==1.22.3
 Pillow==9.0.1
 scikit-image==0.19.2
@@ -12,7 +13,7 @@ tensorflow-cpu
 click==8.0.4
 torch>=1.7
 numpy<1.21  # numba requires numpy<1.21,>=1.17
-opencv-python
+#opencv-python
 torchvision
 scipy
 tqdm
